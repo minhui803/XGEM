@@ -1,11 +1,11 @@
 # XGEM
 1. The program is edited with jupyter notebook, using python language, and the suffix is ​​.ipynb.
 
-2. + Five weak classifier results: in the "weak classifier" folder. With the "DecisionTree+ feature"
+2. + Five weak classifier results: in the "weak classifier" folder.
    + The extraction method name ".ipynb is named after DecisionTree and models built by different extraction methods.
    + For example: DecisionTree+Kmer4.ipynb represents the model constructed by decision tree and Kmer.
 
-3. + Five strong classifier results, in the "strong classifier" folder. With "XgBoost+ feature extraction method name".ipynb
+3. + Five strong classifier results, in the "strong classifier" folder.
    + The naming methods are all models built by XgBoost and different feature extraction methods. Such as: XgBoost+Mismatch21.ipynb said
 Classification model built by XgBoost and Mismatch.
 
