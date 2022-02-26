@@ -33,7 +33,7 @@ Then, run  the  .ipynb file in the corresponding folder.The specific records are
 # How to predict other types of genomes
 
 - First, you need to have the sequence information of the gene. Extract the sequence feature information by BioSeq-Analysis 2.0 [1]. Choose the mismatch feature extraction method, the parameter *k* is 2 and *m* is 1. 
-- Then, name the extracted feature information Mismatch, store it in the **pre_other_essen_gene** folder in .csv format.
+- Then, name the extracted feature information Mismatch, store it in the **pred_other_essen_gene** folder in .csv format.
 - Finally, execute the XGEM.ipynb file in the corresponding folder. The output will have two forms: 0 or 1. 0 represents that the predicted gene is non-essential. 1 represents that the predicted gene is essential.
 
 # Citation
