@@ -28,7 +28,7 @@ Then, run  the  .ipynb file in the corresponding folder.The specific records are
    | strong classifier  | It contains five strong classifiers, XGBoost+kmer.ipynb, XGBoost+Mismatch.ipynb, XGBoost+PseDSSPC.ipynb, XGBoost+Subsequence.ipynb and XGBoost+Triplet.ipynb. |
    | indep_dataset_test | It contains the prediction process using an independent test set. Mismatch.ipynb represents using the XGBoost+Mismatch model for prediction. Subsequence.ipynb represents using the XGBoost+Subsequence model for prediction. |
    | comparison         | It contains comparative experimental procedures. XGEM.ipynb represents that XGEM uses a five-fold cross-validation process. |
-   | prediction         | It contains all mouse pre-miRNA sequences after removing experimental data using XGEM prediction |                   
+   | prediction         | It contains all mouse pre-miRNA sequences after removing experimental data using XGEM prediction. The detailed code is recorded in XGEM.ipynb  |                   
 
 # How to predict other types of genomes
 
