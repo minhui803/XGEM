@@ -1,6 +1,6 @@
 # XGEM
 
-In this work, we predict essential miRNA by the ensembles of various sequence-based classifiers with XGBoost algorithm. All the data used in the experiment are summarized in the **"dataset"** folder, including,  **dataset1**(It contains 77 positive samples and 77 negative samples for comparative experiments), **dataset2**(It contains 85 positive samples and 88 negative samples for train model), **dataset3**(All mouse pre-miRNA sequences after removing the experimental data), **dataset4**(It contains 8 essential miRNAs and 8 non-essential miRNAs that we collected).
+In this work, we predict essential miRNA by the ensembles of various sequence-based classifiers with XGBoost algorithm. All the data used in the experiment are summarized in the **"dataset"** folder, including,  **dataset1**(It contains 77 positive samples and 77 negative samples for comparative experiments), **dataset2**(It contains 85 positive samples and 88 negative samples for train model), **dataset3**(All mouse pre-miRNA sequences after removing the experimental data), **dataset4**(It contains 8 essential miRNAs and 8 non-essential miRNAs that we collected). **dataset5**(It contains feature data for feature extraction methods under different combinations of parameters).
 
 # How to run
 
@@ -28,7 +28,8 @@ Then, run  the  .ipynb file in the corresponding folder.The specific records are
    | strong classifier  | It contains five strong classifiers, XGBoost+kmer.ipynb, XGBoost+Mismatch.ipynb, XGBoost+PseDSSPC.ipynb, XGBoost+Subsequence.ipynb and XGBoost+Triplet.ipynb. |
    | indep_dataset_test | It contains the prediction process using an independent test set. Mismatch.ipynb represents using the XGBoost+Mismatch model for prediction. Subsequence.ipynb represents using the XGBoost+Subsequence model for prediction. |
    | comparison         | It contains comparative experimental procedures. XGEM.ipynb represents that XGEM uses a five-fold cross-validation process. |
-   | prediction         | It contains all mouse pre-miRNA sequences after removing experimental data using XGEM prediction. The detailed code is recorded in XGEM.ipynb  |                   
+   | prediction         | It contains all mouse pre-miRNA sequences after removing experimental data using XGEM prediction. The detailed code is recorded in XGEM.ipynb  |  | adjust_parameter   | It contains the parameter adjustment proces of k-mer, mismatch,subsequence,PseDSSPC.
+   
 
 # How to predict other types of genomes
 
