@@ -60,7 +60,7 @@ Run the "**d10.ipynb**", we can get the **results.csv**, it records the TN, FN, 
 
 Then, we organize the accuracy under each parameter combination into another table and name it "**10.csv**"
 
-**Finally, we can get 10 csv files. Put the 10 csv files in the  XGEM/figures/drawing directory, the run PseDSSPC.ipynb ,we can get a thermal map , it reflects the accuracy value of PseDSSPC under different parameter combinations.**
+**Finally, we can get 10 csv files. Put the 10 csv files in the  XGEM/figures/drawing directory, then run PseDSSPC.ipynb ,we can get a thermal map , it reflects the accuracy value of PseDSSPC under different parameter combinations.**
 
 
 
