@@ -30,6 +30,7 @@ Then, run  the  .ipynb file in the corresponding folder.The specific records are
    | comparison         | It contains comparative experimental procedures. XGEM.ipynb represents that XGEM uses a five-fold cross-validation process. |
    | prediction         | It contains all mouse pre-miRNA sequences after removing experimental data using XGEM prediction. The detailed code is recorded in XGEM.ipynb    
    | adjust_parameter   | It contains the parameter adjustment proces of k-mer, mismatch,subsequence,PseDSSPC.|
+   | parameter_best_value | It contains the optimal tree results for each parameter combination.|
    
 
 # How to predict other types of genomes
